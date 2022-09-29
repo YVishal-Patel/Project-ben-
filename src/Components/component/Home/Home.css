@@ -1,0 +1,22 @@
+.home-container-data{
+    display: flex;
+    /* justify-content: center; */
+}
+.home-container{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-img-data{
+    width: 800px;
+    height: 550px;
+}
+.left-home-cloud{
+    width: 10% !important;
+    position: relative;
+}
+.left-home-cloud-data{
+    position: absolute;
+    bottom: 0%;
+}

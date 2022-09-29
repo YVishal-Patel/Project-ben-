@@ -1,0 +1,88 @@
+.navbar-container{
+    background:linear-gradient(#E6F5ED 50%,#FDF5DD);
+    height: 100vh;
+}
+.navbar-cont-data{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-cont-header, .navbar-center-div{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.header-middle-data{
+    margin: 0 1.7rem;
+}
+.header-middle-data{
+    font-family: bold;
+    color: rgb(66, 64, 64);
+}
+.navbar-logo{
+    margin-top: -0.8rem !important;
+}
+.navbar-center-div{
+    margin-top: 1.3rem;
+}
+.navbar-right-div{
+    background:linear-gradient(#ECD5A1,#F2C192 );
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    line-height: 87px;
+    font-family: semibold;
+    font-size: 14px;
+    margin-top: -0.3rem;
+
+}
+.middle-cont-header, .header-middle-data, .navbar-center-div{
+    flex-wrap: wrap !important;
+}
+.navbar-right-div-data{
+    margin-left: 0.4rem;
+    text-transform: uppercase;
+}
+.navbar-center-div{
+    position: relative;
+}
+.down-svg-icon{
+    position: absolute;
+    top: 0%;
+    right: 25%;
+}
+.toggle-data{
+    margin: 0 0.8rem;
+    font-family: semibold;
+    font-size: 0.8rem;
+    margin-top: -0.3rem;
+}
+.toggle-main-data{
+    margin: 0.3rem 0.6rem;
+}
+.toggle-navbar-data{
+    width: 120px;
+    height: 65px;
+    background-color: #fff;
+    position: absolute;
+    right: 25%;
+    top: 2rem;
+}
+.fixed-app-data{
+    width: 81% !important;
+    position: fixed !important;
+    height: 70px;
+    bottom: 0;
+}
+.newValue{
+    margin-top: -1.4rem;
+}
+.fixed-data-value{
+    margin: 0 0.5rem;
+    font-family: bold;
+    width: 60px;
+}
+.left-data-fixed{
+    width: 90px !important;
+    text-align:end;
+}

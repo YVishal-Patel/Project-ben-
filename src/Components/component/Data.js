@@ -1,0 +1,1 @@
+export const header = ["Home", "Whitepaper", "NFTs", "Community", "Marketplace"]
