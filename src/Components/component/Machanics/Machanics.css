@@ -1,6 +1,6 @@
 .Machanics-container{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
 }
 .Machanics-main-container{
     width: 100%;
@@ -73,3 +73,38 @@ background-color: #F7D8BE;
 .machanics-small-data{
     margin-top: -10rem;
 }
+.static-machanics-img{
+    display: flex;
+    justify-content: center;
+    margin-top: -9rem;
+}
+
+  .img_rotate{
+    transform: rotate(-7deg);
+  }
+  .img_machan2{
+    transform: rotate(6deg);
+  }
+  .img_macha3{
+    z-index: 9999;
+  }
+  .mechna-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    cursor: pointer;
+    /* background-color: #000; */
+  }
+  .me-btn{
+    background-image: linear-gradient(#ecd9a2,#f3bc8f);
+    color: #3c4526;
+    padding: 1.2rem 2rem;
+    line-height: 0px !important;
+    border-radius: 20px;
+    font-family: bold;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  

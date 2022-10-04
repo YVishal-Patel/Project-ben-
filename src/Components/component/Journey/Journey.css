@@ -8,6 +8,12 @@
     background:linear-gradient(#E9F5EB 50%,#B2D388);
     position: relative;
 }
+.main-data{
+    position: relative;   
+}
+.jour-data-new{
+    margin-top: -25rem;
+}
 .journey-data{
     padding-top:5rem;
     position: absolute;
@@ -42,4 +48,7 @@ text-align: center;
     color: #3c4526;
     font-family: bold;
     font-size: 0.9rem;
+}
+.img-jour-cont1{
+    z-index: 9999;
 }

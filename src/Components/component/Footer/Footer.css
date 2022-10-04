@@ -1,0 +1,107 @@
+.footer-container-main{
+    width: 100%;
+    height: 220vh;
+    background: linear-gradient(#E6F5ED,#F6F7E1);
+    position: relative;
+}
+.img-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 380px;
+}
+.footer-data{
+    width: auto !important;
+    font-size: 3.6rem;
+}
+.footer-down-data{
+    margin-top: 14rem;
+}
+.footer-brand-img{
+    display: flex;
+    justify-content: center;
+    margin:2rem;
+}
+.footer-brand-img-data{
+    margin: 0 2rem;
+}
+.footer-brand-binance{
+    margin-top: 0.6rem;
+}
+.footer-brand-img-middle{
+    display: flex;
+    justify-content: center; 
+    margin:3rem;
+}
+.footer-brand-zipmex{
+    height: 2.75rem;
+}
+.footer-brand-binance{
+    height: 1.5rem !important;
+}
+.img-middle-right{
+    margin-top: -0.2rem;
+}
+.our-community-discord-component{
+    margin-top: 13rem;
+    display: flex;
+    justify-content: center;
+}
+.our-community-discord-main{
+    width: 75%;
+    height: 180px;
+    border-radius: 20px;
+    background: linear-gradient(#ECD4A0 70%,#F2C091);
+    display: flex;
+    justify-content: flex-end;
+}
+.discord-data{
+    margin: 0 2rem;
+}
+.our-community-discord-main-head{
+    font-family: large;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    color: #3c4526;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+.our-community-discord-main-desc{
+font-size: 1rem;
+    line-height: 1.5rem;
+    color: #3c4526;
+}
+.discord-img{
+    margin-top: -3rem;
+}
+.discord-img-data{
+    height: 17.75rem;
+}
+.footer-last-div{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+.footer-last-div-data-para{
+text-align: center;
+margin-top: 2rem;
+margin-left: -3rem;
+font-family: bold;
+color: #3c4526;
+}
+.linked-discord{
+    text-decoration: underline;
+}
+.footer-linked-data{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -2rem;
+}
+.footer-linked-img{
+    margin-left: -1rem;
+    /* margin-top: 1rem; */
+height: 3rem !important;
+cursor: pointer;
+z-index: 9999;
+}

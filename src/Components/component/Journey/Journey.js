@@ -10,15 +10,16 @@ import 'animate.css'
 const Journey = () => {
   useEffect(()=>{
     new WOW.WOW().init();
-  },[])
+  })
   return (
     <>
     <div className="journey-container">
-        <div className="journey-main-container">
-            <img src={backgroundImg} alt="not found" width="100%" height="380px" />
+        <div className="journey-main-container ">
+            <img src={backgroundImg} alt="not found"  width="100%" height="380px" />
+            </div>
             <div className="container">
-                <div className="container-jour-data">
-                <div className="journey-data">
+                <div className="container-jour-data main-data ">
+                <div className="journey-data jour-data-new">
                     <p className='container-jour-data-small wow animate__fadeInUp'  data-wow-delay="0.3s">Game Modes</p>
                     <h2 className='container-jour-data-big-data wow animate__fadeInUp'  data-wow-delay="0.4s">Choose Your Journey</h2>
                     </div>       
@@ -44,7 +45,7 @@ const Journey = () => {
                   </div>
                 </div>
             </div>
-        </div>
+        
     </div>
     </>
   )
