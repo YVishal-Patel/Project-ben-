@@ -1,0 +1,45 @@
+.journey-container{
+    width: 100%;
+    height: 110vh;
+}
+.journey-main-container{
+    width: 100%;
+    height: 60vh;
+    background:linear-gradient(#E9F5EB 50%,#B2D388);
+    position: relative;
+}
+.journey-data{
+    padding-top:5rem;
+    position: absolute;
+    top: 0;
+}
+.container-jour-data{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.container-jour-data-small{
+    font-family: bold;
+    color: #3c4526;
+}
+.container-jour-data-big-data{
+    font-family: large;
+    font-size: 3.5rem;
+    color: #3c4526;
+    margin-top: -1rem;
+}
+.jour-container{
+    margin-top: -11rem ;
+}
+.jour-img-head{
+    font-family: bold;
+    color: #3c4526;
+    font-size: 1.1rem;
+}
+.jour-img-desc{
+    width: 500px;
+    text-align: center;
+    color: #3c4526;
+    font-family: bold;
+    font-size: 0.9rem;
+}

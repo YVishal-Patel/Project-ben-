@@ -14,7 +14,7 @@ export const Navbar = () => {
 
     const showToggleData = () =>{
         setState(!state)
-        ref.current.style.display = state? "none" : "block";
+        ref.current.style.display = state? "block" : "none";
     }
   return (
     <>

@@ -41,3 +41,7 @@ code {
   font-family:unknown;
   src: url(./Components/Assets/Quicksand/Quicksand-VariableFont_wght.ttf)
 }
+@font-face{
+  font-family:known;
+  src:url(./Components/Assets/Quicksand/Quicksand-VariableFont_wght.ttf)
+}

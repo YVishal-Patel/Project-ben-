@@ -1,6 +1,6 @@
 .navbar-container{
     background:linear-gradient(#E6F5ED 50%,#FDF5DD);
-    height: 100vh;
+    height: 110vh;
 }
 .navbar-cont-data{
     padding: 2rem 0;
@@ -73,6 +73,8 @@
     position: fixed !important;
     height: 70px;
     bottom: 0;
+    z-index: 9999
+    ;
 }
 .newValue{
     margin-top: -1.4rem;

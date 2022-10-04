@@ -1,0 +1,75 @@
+.Machanics-container{
+    width: 100%;
+    height: 110vh;
+}
+.Machanics-main-container{
+    width: 100%;
+    height: 60vh;
+    background:linear-gradient(#F7D8BE 50%,#FDEDD0);
+    position: relative;
+}
+.Machanics-data{
+    padding-top:5rem;
+    position: absolute;
+    top: 0;
+}
+.container-jour-data{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.container-jour-data-small{
+    font-family: bold;
+    color: #3c4526;
+}
+.container-machanics-big-data{
+    font-family: large;
+    font-size: 2.8rem;
+    color: #3c4526;
+    margin-top: -1rem;
+    width: 400px;
+    line-height: 39px;
+}
+.machanic-data{
+    margin-bottom: 1.9rem;
+}
+.mac-small-data, .mac-small-data-stat{
+    font-family: semibold;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+}
+.mac-small-data-stat{
+color: darkgrey;
+}
+.mac-small-data{
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+.mac-small-data-head{
+    text-align: end !important;
+}
+.mac-small-data-stat-dat{
+font-family: bold;
+font-size: 0.7rem;
+}
+.hatch{
+    text-align: end;
+    font-family: bold;
+    font-size: 0.9rem;
+}
+.mac-small-data-down{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+.machanics-small-data{
+    position: relative;
+}
+.mac-small-data{
+transform: rotate(-3.36deg) ;
+background-color: #F7D8BE;
+}
+.machanics-small-data{
+    margin-top: -10rem;
+}
