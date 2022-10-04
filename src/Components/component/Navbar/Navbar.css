@@ -67,6 +67,8 @@
     position: absolute;
     right: 25%;
     top: 2rem;
+    display: none;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5);
 }
 .fixed-app-data{
     width: 81% !important;

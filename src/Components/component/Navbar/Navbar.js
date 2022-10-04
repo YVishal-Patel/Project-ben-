@@ -10,7 +10,7 @@ import Home from '../Home/Home';
 
 export const Navbar = () => {
     const ref = useRef(true);
-    const [state, setState] = useState(true)
+    const [state, setState] = useState(false)
 
     const showToggleData = () =>{
         setState(!state)
@@ -22,7 +22,7 @@ export const Navbar = () => {
         <div className="container">
         <div className="navbar-cont-data">
             <div className="navbar-left-div">
-                <div className="navbar-logo">
+                <div className="navbar-logo" data-wow-iteration="infinite">
                     <img src={img1} alt="not found" width="100px" />
                 </div>    
             </div>
