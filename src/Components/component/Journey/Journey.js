@@ -5,7 +5,8 @@ import img1 from '../../Assets/images/video2.mp4';
 import img2 from '../../Assets/images/video1.mp4'
 import backgroundImg from '../../Assets/images/untitled.png'
 import WOW from 'wowjs';
-import 'animate.css'
+import 'animate.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Journey = () => {
   useEffect(()=>{
@@ -20,11 +21,14 @@ const Journey = () => {
             <div className="container">
                 <div className="container-jour-data main-data ">
                 <div className="journey-data jour-data-new">
-                    <p className='container-jour-data-small wow animate__fadeInUp'  data-wow-delay="0.3s">Game Modes</p>
-                    <h2 className='container-jour-data-big-data wow animate__fadeInUp'  data-wow-delay="0.4s">Choose Your Journey</h2>
+                <AnimationOnScroll className='left-data-item' animateIn='animate__fadeInUp'>
+                    <p className='container-jour-data-small '  data-wow-delay="0.3s">Game Modes</p>
+                    <h2 className='container-jour-data-big-data '  data-wow-delay="0.4s">Choose Your Journey</h2>
+                    </AnimationOnScroll>
                     </div>       
                 </div>
-                <div className="jour-container d-flex justify-content-between wow animate__fadeInUp"  data-wow-delay="0.4s">
+                <AnimationOnScroll className='left-data-item' animateIn='animate__fadeInUp'>
+                <div className="jour-container d-flex justify-content-between "  data-wow-delay="0.4s">
                   <div className="img-jour-cont1">
                     <video alt="not found" width="500px" controls >
                     <source src={img1} type="video/mp4"/>
@@ -44,6 +48,7 @@ const Journey = () => {
                     </div>
                   </div>
                 </div>
+                  </AnimationOnScroll>
             </div>
         
     </div>

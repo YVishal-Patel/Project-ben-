@@ -12,11 +12,15 @@
     width: 800px;
     height: 550px;
 }
+/* .left-data-item{
+    position: absolute;
+    bottom: 0;
+} */
 .left-home-cloud{
     width: 10% !important;
     position: relative;
 }
+
 .left-home-cloud-data{
-    position: absolute;
-    bottom: 0%;
+  margin-top: 25rem;
 }

@@ -9,6 +9,7 @@ import img4 from '../../Assets/images/teamCard4.svg'
 import img5 from '../../Assets/images/teamCard5.svg'
 import WOW from 'wowjs';
 import TeamCard from './TeamCard';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 const Team = () => {
@@ -23,30 +24,42 @@ useEffect(()=>{
         <div className="container">
         <div className="container-jour-data">
                 <div className="Machanics-data">
+                <AnimationOnScroll className='left-data-item' animateIn='animate__fadeInUp'>
                     <p className='container-jour-data-small machanic-data wow animate__fadeInUp' >Team
 
 </p>
                     <h2 className='container-machanics-big-data team-big-data wow animate__fadeInUp'>MEET THE AFINIONS</h2>
+                    </AnimationOnScroll>
                     </div>    
                 </div>
                 <div className="team-card">
                     <div className="team-card-component-data">
-                    <div className="team-card-component-data1 wow animate__fadeInLeft" data-wow-delay="0.5s">
+                    <div className="team-card-component-data1 " data-wow-delay="0.5s">
+                    <AnimationOnScroll  animateIn='animate__fadeInLeft'>
                     <TeamCard img={img1} name="Sebastian" des="Project Lead" />
+                    </AnimationOnScroll>
                     </div>
-                    <div className="team-card-component-data2 wow animate__fadeInRight " data-wow-delay="0.5s">
+                    <div className="team-card-component-data2 " data-wow-delay="0.5s">
+                    <AnimationOnScroll  animateIn='animate__fadeInRight'>
                     <TeamCard img={img2} name="Ben" des="Game Lead" />
+                    </AnimationOnScroll>
                     </div>
                     </div>
                     <div className="team-card-component-last-data">
-                    <div className="team-card-component-data3 wow animate__fadeInLeft" data-wow-delay="0.2s">
+                    <div className="team-card-component-data3 " data-wow-delay="0.2s">
+                    <AnimationOnScroll  animateIn='animate__fadeInLeft'>
                     <TeamCard img={img3} name="Toon" des="Unity Developer" />
+                    </AnimationOnScroll>
                     </div>
-                    <div className="team-card-component-data4 wow animate__fadeInUp" data-wow-delay="0.2s">
+                    <div className="team-card-component-data4 " data-wow-delay="0.2s">
+                    <AnimationOnScroll  animateIn='animate__fadeInUp'>
                     <TeamCard img={img4} name="Prim" des="3D Artist + Animator" />
+                    </AnimationOnScroll>
                     </div>
-                    <div className="team-card-component-data5 wow animate__fadeInRight" data-wow-delay="0.2s">
+                    <div className="team-card-component-data5 " >
+                    <AnimationOnScroll  animateIn='animate__fadeInRight' data-wow-delay="0.2s">
                     <TeamCard img={img5} name="Shuu" des="Designer" />
+                    </AnimationOnScroll>
                     </div>
                     </div>
                 </div>
