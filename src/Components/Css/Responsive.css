@@ -1,0 +1,473 @@
+@media only screen and (min-width: 250px) and (max-width: 300px){
+.ads-main-btn{
+display: none;
+}
+.ads-data{
+    font-size: 0.7rem !important;
+}
+.ads-main{
+    margin-left: -10%;
+}
+
+}
+
+body{
+    overflow-x: hidden !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 481px){
+    .roadmap-container{
+        margin-top: 29rem;
+    }
+    .ads-main{
+        margin-left: -10%;
+    }
+    .ads-data{
+        font-size: 0.6rem !important;
+    }
+    .ads-main-btn{
+    padding:0.1 0.4rem ;
+    font-size: 0.6rem ;
+    }
+    .cross-ads-icon{
+        width: 20px !important;
+        right: 3%;
+        top: 1.4rem;
+    }
+    .main-img-data{
+        margin-top: -4rem !important;
+        width:100% !important;
+        height: 300px;
+        object-fit: contain !important;
+    } 
+    .right-home-cloud-data{
+       display: none !important;
+    }
+    .left-home-cloud-data{
+        display: none !important;
+    }
+
+    /*----------------------- About --------------------------  */
+    .about-img-div-data{
+        display: none !important;
+        }
+        .about-container-data{
+            width: 100% !important;
+        }
+        .small-data, .about-hidden-data, .drop-down-icon, .about-cont-data{
+            margin-left: 2rem;
+        }
+        .about-cont-data{
+            font-size: 2.3rem !important;
+        }
+        .about-main-container{
+            margin-top: -8rem;
+        }
+
+        /*----------------------- Journey  -------------------------  */
+
+        .journey-main-container {
+            margin-top: -2rem ;
+        }
+.jour-container{
+    display: block !important;
+}
+.img-jour-cont1{
+    margin: 2rem 0;
+    margin-left: 3rem ;
+}
+.img-jour-cont1-data{
+    width: 260px !important;
+}
+.about-container{
+    margin-top: 5rem;
+}
+.Machanics-container{
+    margin-top: 20rem ;
+}
+.img_rotate, .img_machan2, .img_macha3 {
+margin-left: 3rem;
+}
+.team-card-component-data, .team-card-component-last-data{
+    flex-wrap: wrap !important;
+}
+.container-machanics-big-data{
+    font-size: 2.5rem !important;
+}
+.container-jour-data-small{
+    width: 100% !important;
+}
+.container-machanics-big-data{
+    width: 100% !important;  
+}
+.team-main-container{
+    margin-top: 30rem;
+}
+.container-jour-data-small{
+    font-size: 14px !important;
+}
+.container-machanics-big-data{
+    font-size: 2rem !important;
+}
+.discord-img{
+    display: none !important;
+}
+.container-machanics-big-data{
+    font-size: 2.3rem !important;
+}
+.our-community-discord-main{
+  height: 300px !important;
+}
+.footer-container-main {
+height: 300vh !important;
+margin-top: 45rem;
+}
+.footer-brand-img, .footer-brand-img-middle, .footer-brand-img-middle{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-brand-img-data-zipmax, .footer-brand-binance{
+    margin: 1.5rem 0;
+}
+.container-jour-data-big-data{
+ font-size: 2.5rem !important;
+}
+.footer-last-div{
+    margin-left: 3rem;
+}
+.navbar-cont-data-small-scr-data{
+    display: flex !important;
+    padding-top: 1rem;
+    display: flex ;
+    justify-content: space-between;
+}
+/* .navbar-left-div-main-data{
+    background:linear-gradient(#B3D28A,#88CBA8);
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;   
+} */
+/* .menu-bar-icon{
+    width: 20px !important;
+    height: 20px !important;
+} */
+.container-main-head-data-main{
+    display: none !important;
+}
+.fixed-app-data{
+    display: none !important;
+}
+.team-card-component-data{
+    flex-direction: column ;
+align-items: center ;
+}
+.hidden-navbar{
+ display: block;
+ width: 100% !important;
+ z-index: 999999;
+}
+.main-img-data{
+    margin-top: 2rem !important;
+}
+.navbar-left-div-main-datas, .navbar-right-div-main-data{
+    background: linear-gradient(#B3D28A,#88CBA8);
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+}
+.menu-bar-icon, .navbar-right-div-game{
+    width: 21px !important;
+    height: 21px !important;
+}
+.navbar-left-div-small{
+    font-size: 0.9rem !important;
+    margin-left: 0.6rem !important;
+}
+.navbar-left-div-small-right{
+    font-size: 0.9rem !important;
+}
+.main-carousal-div3{
+    display: none !important;
+   }
+   .main-carousal-div2{
+    display: none;
+}
+.main-carousal-div{
+    display: none;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 550px){
+    .jour-container{
+        display: block !important;
+    }
+    .img-jour-cont1{
+        margin-bottom: 2rem;
+        margin-left: 0.6rem !important;
+    }
+    .img-jour-cont1-data{
+        width: 300px !important;
+    }
+    .journey-main-container {
+        margin-top: -9rem !important ;
+    }
+    .footer-container-main {
+        /* height: 130vh !important; */
+        margin-top: 10rem !important;
+    }
+    .Machanics-container {
+        margin-top: 28rem !important;
+    }
+    .team-main-container{
+        margin-top: 5rem;
+    }
+    .fixed-app-data{
+        display: none !important;
+    }
+ 
+    .roadmap-container{
+    margin-top: 2rem;
+    }
+   
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 778px){
+.ads-data{
+    font-size: 0.8rem !important;
+}
+.fixed-app-data{
+    display: none !important;
+}
+.ads-main-btn{
+padding:0 0.8rem ;
+font-size: 0.8rem ;
+/* margin: 0 0.3rem; */
+}
+.cross-ads-icon{
+    width: 25px !important;
+    right: 1.5%;
+}
+  .ads-main{
+    margin-left: -5%;
+}
+.main-img-data{
+    margin-top: -1rem !important;
+    width:100% !important;
+    height: 420px;
+    object-fit: contain !important;
+} 
+.right-home-cloud-data{
+    width: 80px !important;
+    height: 80px !important;
+}
+.left-home-cloud-data{
+    width: 80px;
+}
+/*----------------------- About --------------------------  */
+.about-img-div-data{
+display: none !important;
+}
+.about-container-data{
+    width: 100% !important;
+}
+.small-data, .about-hidden-data, .drop-down-icon, .about-cont-data{
+    margin-left: 2rem;
+}
+.about-cont-data{
+    font-size: 2.8rem !important;
+}
+
+/*----------------------- Journey  -------------------------  */
+.journey-main-container {
+    margin-top: -14rem ;
+}
+.jour-container{
+    display: block !important;
+}
+.img-jour-cont1{
+    /* width: 100% !important; */
+    margin-bottom: 2rem;
+    margin-left: 5rem ;
+}
+.img-jour-cont1-data{
+    width: 500px !important;
+}
+.Machanics-container{
+    margin-top: 20rem ;
+}
+.team-card-component-data, .team-card-component-last-data{
+    flex-wrap: wrap !important;
+}
+.our-community-discord-main{
+    width: 100% !important;
+}
+.our-community-discord-main{
+    height: 350px !important;
+}
+.discord-data{
+    margin-top: 1rem !important;
+}
+.discord-img{
+    margin-top: 2rem !important;
+}
+.container-machanics-big-data{
+    font-size: 2.9rem !important;
+}
+.footer-brand-img, .footer-brand-img-middle, .footer-brand-img-middle{
+    flex-wrap: wrap !important;
+}
+.navbar-cont-data-small-scr-data{
+    display: flex !important;
+    padding-top: 1rem;
+    display: flex ;
+    justify-content: space-between;
+}
+.container-main-head-data-main{
+    display: none !important;
+}
+.hidden-navbar{
+    display: block;
+    width: 100% !important;
+    z-index: 999999;
+   }
+   .main-carousal-div3{
+    display: block !important;
+   }
+   .main-carousal-div2{
+    display: none;
+}
+.main-carousal-div{
+    display: none;
+}
+.slider-caro{
+    display: none;
+}
+}
+
+@media only screen and (min-width: 779px) and (max-width: 992px){
+    .main-img-data{
+        width:100% !important;
+        height: 460px;
+        object-fit: contain !important;
+    } 
+    .right-home-cloud-data{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .left-home-cloud-data{
+        width: 100px;
+    }
+    /*----------------------- About --------------------------  */
+    .about-img-div-data{
+        width:400px !important;
+    }
+    .about-container-data{
+        width: 100% !important;
+    }
+
+    /*----------------------- Journey  -------------------------  */
+    .journey-main-container {
+        margin-top: -14rem ;
+    }
+    .jour-container{
+        display: block !important;
+    }
+    .img-jour-cont1{
+        width: 100% !important;
+        margin-bottom: 2rem;
+    }
+    .img-jour-cont1-data{
+        width: 700px !important;
+    }
+    .Machanics-container{
+        margin-top: 25rem ;
+    }
+    .our-community-discord-main{
+        width: 95% !important;
+    }
+    .footer-container-main {
+        height: 130vh !important;
+        margin-top: -22rem;
+    }
+    .navbar-cont-data-small-scr-data{
+        display: flex !important;
+        padding-top: 1rem;
+        display: flex ;
+        justify-content: space-between;
+    }
+    .container-main-head-data-main{
+        display: none !important;
+    }
+    .hidden-navbar{
+        display: block;
+        width: 50% !important;
+        z-index: 999999;
+       }
+
+
+   
+    .main-carousal-div2{
+        display: block;
+    }
+    .main-carousal-div{
+        display: none;
+    }
+    .main-carousal-div3{
+        display: none;
+    }
+
+    .slider-caro{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    .main-img-data{
+        width:100% !important;
+        height: 520px;
+        object-fit: contain !important;
+    } 
+/*----------------------- About --------------------------  */
+.img-jour-cont1-data{
+    width: 400px !important;
+    margin:0 0.6rem;
+}
+.small-scr-data{
+    display: none;
+}
+.main-carousal-div2{
+    display: block !important;
+}
+.main-carousal-div{
+    display: none;
+}
+.slider-caro{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px){
+.main-img-data{
+    margin-top: 0px !important;
+}
+.slider-caro{
+    display: none;
+}
+.main-carousal-div2{
+    display: block !important;
+}
+.main-carousal-div{
+    display: none;
+}
+
+}
+@media only screen and (min-width: 1301px){
+    .main-img-data{
+        margin-top: 0px !important;
+    }
+    .slider-caro{
+        display: none;
+    }
+}

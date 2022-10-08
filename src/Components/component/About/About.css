@@ -34,21 +34,17 @@
 font-family: semibold;
 color: #3c4526;
 }
-/* .small-data{
-    display: inline-block;
-    margin: 0 0.5rem;
-  
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-/* }  */
+
 .animate__backInUp {
     --animate-duration: 10s;
     
   }
   
-  /* This changes all the animations globally */
   :root {
     --animate-duration: 800ms;
     --animate-delay: 0.9s;
     animate__infinite:	infinite;
   }
- 
+.about-img-div-data{
+    width:550px;
+}

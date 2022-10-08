@@ -6,17 +6,23 @@ import Journey from './Components/component/Journey/Journey'
 import Machanics from './Components/component/Machanics/Machanics'
 import Team from './Components/component/Team/Team';
 import Footer from './Components/component/Footer/Footer'
+import Home from './Components/component/Home/Home'
+import RoadMap from './Components/component/RoadMap/RoadMap'
+import Demo from './Components/component/About/Demo'
+import RoadMapCard4 from './Components/component/RoadMap/RoadMapCard4'
+// import MultipleItems from './Components/component/RoadMap/RoadMapCard'
 
 const App = () => {
   return (
     <>
-  <Ads />
-  <Navbar />
-  <About />
-  <Journey />
+   <Ads />
+   <Navbar />
+   <About />
+  <Journey /> 
   <Machanics />
-  <Team />
-  <Footer />
+  <RoadMap />
+   <Team />
+  <Footer /> 
     </>
   )
 }

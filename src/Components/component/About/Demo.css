@@ -1,0 +1,77 @@
+.road-map-data{
+    /* position: absolute; */
+width: 353px ;
+height: 450px;
+background: linear-gradient(213.13deg, #ECD9A2 40.69%, #F3BC8F 79.35%) !important;
+border-radius: 30px;
+}
+.carousel-item{
+    height: 450px;
+background: linear-gradient(213.13deg, #ECD9A2 40.69%, #F3BC8F 79.35%) !important;
+border-radius: 30px;
+}
+.road-map-data2{
+    width: 300px ;
+height: 400px;
+background: linear-gradient(213.13deg, #ECD9A2 40.69%, #F3BC8F 79.35%) !important;
+border-radius: 30px;
+}
+.carousel-item{
+    /* margin: 0 0.1rem; */
+}
+.main-carousal-div2{
+    display: none;
+}
+.main-carousal-div3{
+    display: none;
+}
+.main-carousal-div2, .main-carousal-div3{
+    position: absolute;
+    margin-top: -31rem;
+    width: 90% !important;
+    z-index: 999999; 
+}
+.main-carousal-div {
+    position: absolute;
+    margin-top: -34rem;
+    width: 86%;
+    margin-left: 20rem;
+    z-index: 999999;
+}
+.main-carousal-div-data{
+    width: 60% !important;
+    z-index: 999999; 
+}
+.slider-caro{
+    width: 96%;
+    height: 100vh;
+    position: absolute;
+    margin-top: -34rem;
+}
+.map-head, .map-small-head, .map-small-head2{
+    text-align: center;
+    padding-top: 1.3rem;
+    color: #3C4526;
+    font-family: semibold;
+}
+.road-map, .road-map2{
+    margin: 0 5rem;
+}
+.firstDATa, .road-map2{
+    background: linear-gradient(#B7D486,#86CBAA) !important;
+}
+
+
+.carousel-control-prev, .carousel-control-next{
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    margin-top: 29rem;
+    background: linear-gradient(#cef192,#8ce9bc) !important;
+}
+.carousel-control-prev{
+    margin-left: 6rem;
+}
+.carousel-control-next{
+margin-right: 6rem;
+}

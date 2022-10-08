@@ -1,0 +1,30 @@
+.roadmap-container{
+    width: 100%;
+    height: 150vh;
+    background:linear-gradient(#E9F5EB 50%,#B2D388);
+    position: relative;
+}
+.roadmap-main-img{
+    width: 100%;
+    height: 150vh;
+}
+.roadMap-big-data{
+    font-size: 4rem;
+    line-height: 70px ;
+}
+.res-card-data{
+    position: absolute;
+    top: 20rem;
+    z-index: 999;
+}
+.slider-data{
+    display: flex;
+    justify-content: space-between;
+}
+.slider-data-small-datas{
+    width: 300px !important;
+    height: 250px;
+    background:linear-gradient(#B6D488 50%,#84CBAA);
+}
+
+

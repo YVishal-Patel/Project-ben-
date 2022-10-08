@@ -90,3 +90,52 @@
     width: 90px !important;
     text-align:end;
 }
+.navbar-cont-data-small-scr-data{
+    display: none;
+}
+.navbar-left-div-main-datas{
+    background:linear-gradient(#B3D28A,#88CBA8);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu-bar-icon, .navbar-right-div-game{
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+}
+.navbar-right-div-main-data{
+    background:linear-gradient(#B3D28A,#88CBA8);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+}
+.navbar-right-div-data  {
+display: flex;
+}
+.navbar-left-div-small-right{
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+    font-family: semibold;
+    color: #3c4526;
+    text-transform: capitalize !important;
+}
+.navbar-left-div-main-data{
+display: flex;
+}
+.navbar-left-div-small{
+    /* margin-top: 0.8rem; */
+    margin-left: 1rem;
+    font-family: semibold;
+    color: #3c4526;
+    text-transform: capitalize !important;
+}
+
+.navbar-cont-data-small-scr-data{
+    display: none;
+}
+.black-out-data  {
+    margin-top: 0.8rem;
+}
+.navbar-left-div-main-data{
+    margin-top: 1.5rem;   
+}

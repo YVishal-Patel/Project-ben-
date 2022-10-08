@@ -24,13 +24,13 @@ const About = () => {
     <div className="about-container">
       <div className="about-main-container container">
         <div className="about-img-div">
-          <img src={birdImg} alt="not found" width="550px" />
+          <img src={birdImg} alt="not found" className='about-img-div-data'  />
         </div>
         <div className="about-main-container-data">
           <div className="about-container-data">
-          <p className='small-data  ' >About Net Zero</p>
+          <p className='small-data ' >About Net Zero</p>
           <AnimationOnScroll className='left-data-item' animateIn='animate__fadeInUp'>
-          <h2 style={{display:state?"none":"block"}} className='about-cont-data wow '  data-wow-delay="0.3s">PLAY TO IMPACT IN THE REAL WORLD THROUGH GAMING</h2>
+          <h2 style={{display:state?"none":"block"}} className='about-cont-data  '  data-wow-delay="0.3s">PLAY TO IMPACT IN THE REAL WORLD THROUGH GAMING</h2>
           </AnimationOnScroll>
           <div className='wow animate__fadeInDown' style={{display:state?"block":"none"}}  >
           <AnimationOnScroll className='left-data-item' animateIn='animate__fadeInUp'>

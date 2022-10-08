@@ -28,9 +28,9 @@ const Home = () => {
         </div>
         </AnimationOnScroll>
          
-        <div className="right-home-cloud wow  ">
+        <div className="right-home-cloud   ">
         <AnimationOnScroll animateIn='animate__fadeInRight'>
-        <img src={rightCloud} alt="not found" width="200px !important" height="200px" />
+        <img src={rightCloud} alt="not found" className='right-home-cloud-data'  />
         </AnimationOnScroll>
       </div>
     </div>

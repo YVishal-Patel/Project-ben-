@@ -19,6 +19,9 @@
     position: absolute;
     top: 0;
 }
+.img-jour-cont1-data{
+    width:500px ;
+}
 .container-jour-data{
 display: flex;
 justify-content: center;
@@ -43,7 +46,7 @@ text-align: center;
     font-size: 1.1rem;
 }
 .jour-img-desc{
-    width: 500px;
+    /* width: 500px; */
     text-align: center;
     color: #3c4526;
     font-family: bold;
